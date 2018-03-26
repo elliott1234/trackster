@@ -7,9 +7,50 @@ body {
   }
 .header {
   background-color: rgb(35, 2, 63);
+  padding: 2.5rem;
 }
 .header h1 {
   font-family: "Righteous", cursive;
   color: rgb(255, 0, 171);
   font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
+.header input {
+  border-radius: 1.5rem;
+  margin-right: .75rem;
+}
+.header .fa-search {
+  padding: .5rem;
+  border-radius: 1.5rem;
+  text-align: center;
+  background-color: rgb(255, 102, 204);
+  color: rgb(191,191,191);
+}
+.header .fa-search:hover {
+  cursor: pointer;
+  background-color: rgb(255, 0, 171);
+
+}
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+.attributes {
+  color: rgb(255, 255, 255);
+  background-color: rgb(104, 0, 255);
+}
+.track {
+  display: flex;
+  padding: .5rem;
+  border-bottom: 1px solid rgb(204,204,204);
+  }
+.track div {
+  display: flex;
+  align-items: center;
+}
+.play-button a {
+  display: flex;
+  align-items: center;
+  }

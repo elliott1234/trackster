@@ -1,4 +1,10 @@
-var Main = {};
+var Trackster = {};
+
+$(document).ready(function() {
+  $('#search-button').click(function() {
+    Trackster.searchTracksByTitle($('#search-input').val());
+  });
+});
 
 Main.returnsTrue = function() {
   return false;
